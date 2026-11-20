@@ -1,0 +1,31 @@
+company:
+  standard_family: ASME
+  units: us_customary
+  ste_issue: "ASD-STE100 Issue 8"
+
+editions:
+  ASME: []
+  ISO: []
+
+lifecycle_states:
+  - In Work
+  - In Review
+  - Released
+  - Obsolete
+
+safety_factors: {}
+
+licensed_standards: []
+
+deployment:
+  target: local_docker_compose
+
+database:
+  primary: postgresql
+  pgvector: true
+
+object_storage:
+  provider: minio
+
+identity:
+  provider: null
